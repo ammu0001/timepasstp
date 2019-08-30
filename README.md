@@ -72,3 +72,6 @@ If you find any issue with the app please do raise an issue here https://github.
 
 ### License
 This project is Licensed under the [GNU GPL V2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html). See  [LICENSE](https://github.com/ammu0001/TimePass/master/LICENSE) for more info.
+##### SA90338669
+
+##### SC15561127
