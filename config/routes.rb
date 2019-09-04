@@ -22,7 +22,7 @@ Rails.application.routes.draw do
     root to: 'home#index', as: 'home'
   end
   unauthenticated :user do
-    root 'home#index'
+    root 'home#front', as: 'front'
   end
 
   match :follow, to: 'follows#create', as: :follow, via: :post
