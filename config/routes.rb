@@ -17,7 +17,7 @@ Rails.application.routes.draw do
       get :calendar
     end
   end
-  root 'home#front'
+  # root 'home#front'
 
   authenticated :user do
     root to: 'home#index', as: 'home'
