@@ -6,6 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 # config.assets.initialize_on_precompile = false
+config.public_file_server.enabled = true
 
 module TimePass
   class Application < Rails::Application
