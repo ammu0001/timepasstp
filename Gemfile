@@ -36,10 +36,10 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg', '~> 1.1', '>= 1.1.4'
+  gem 'pg', '~> 0.20'
   gem 'unicorn'
   gem 'rails_12factor'
-  gem 'fog'
+  # gem 'fog'
   gem 'fog-aws'
 end
 
