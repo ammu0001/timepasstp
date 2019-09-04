@@ -17,12 +17,13 @@ Rails.application.routes.draw do
       get :calendar
     end
   end
+  root 'home#front'
 
   authenticated :user do
     root to: 'home#index', as: 'home'
   end
   unauthenticated :user do
-    root 'home#front', as: 'front'
+    root 'home#front'
   end
 
   match :follow, to: 'follows#create', as: :follow, via: :post
